@@ -65,3 +65,16 @@ x2=x1+l*cos(eve)
                 y1=y2
     
 '''
+'''
+int x = 255;
+ 
+void setup() { 
+  size(400, 400); 
+  colorMode(HSB, 360, 100, 100); 
+}
+ 
+void draw(){
+  x--;
+  if(x==0)x=360;
+  background(x, 255, 255);
+}'''
